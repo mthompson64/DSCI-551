@@ -3,7 +3,7 @@ import pandas as pd
 import json
 
 def main():
-    # Parse argumnts passed in via command line
+    # Parse arguments passed in via command line
     parser = argparse.ArgumentParser(description="Specify input and output files for this program")
     parser.add_argument("infile", default = "551-0119.txt", type = argparse.FileType('r'), help = "Input file name")
     parser.add_argument("outfile", default = "stats.json", type = argparse.FileType('w'), help = "Output file name")
@@ -30,6 +30,7 @@ def main():
 
     results = json.loads(result)
     print(json.dumps(results, indent = 2))
+
 ##################################################
 
 # Run main script
