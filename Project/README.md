@@ -30,19 +30,32 @@ First, I need to figure out what areas I want to collect data for. Do I want to 
   - Virginia
   - Maryland
 - [X] Create list of zip codes and collect latitude and longitude, population, and basic income and house price information
-- [ ] Create NoSQL database to store data in
-  - [ ] MongoDB
-- [ ] Get Google Maps commute data
-  - Filter data based off of commute < 1 hr
+- [X] Create NoSQL database to store data in
+  - [X] MongoDB
+- [X] Get Google Maps commute data
+  - Get all data for specified states
+  - [ ] Filter data based off of commute < 1 hr
 - [ ] Get Yelp data
-  - Only scrape data in zip codes close enough (follows above cutoff < 1 hr commute)
-  - [ ] Coffee shops in area count
+  - Get all data for specified states
+  - [ ] Coffee shops in area
     - [ ] Excluding Starbucks
     - [ ] Including Starbucks & other chains
-  - [ ] Vegetarian & vegan restaurants in area count
-  - [ ] Health food grocery stores in area count (Trader Joe's, Whole Foods, etc.)
+  - [X] Vegetarian & vegan restaurants in area
+  - [ ] Health food grocery stores in area (Trader Joe's, Whole Foods, etc.)
+  - [ ] Filter data based off of commute < 1hr
 - [ ] Get Redfin data
   - Only scrape data in zip codes close enough (follows above cutoff < 1 hr commute)
+- [ ] Clean dataset
+  - [ ] Ensure no duplicates, missing values, etc.
+  - [ ] Only keep data for zip codes that have a commute of < 1hr
+  - [ ] Merge datasets 
+- [ ] Store data in database
+  - [ ] Use MongoDB to store data and query
+- [ ] Analyze data
+  - [ ] How many coffee shops/ vegan restaurants in each zip code?
+  - [ ] What is the commute like for each zip code?
+  - [ ] What is the property value like per zip code?
+  - [ ] Is it smart to buy a house in this zip code?
 - [ ] Create UI dashboard
   - [ ] Upload data
   - [ ] Visualize data
