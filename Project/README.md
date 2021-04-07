@@ -45,12 +45,12 @@ First, I need to figure out what areas I want to collect data for. Do I want to 
   - [ ] Filter data based off of commute < 1hr
 - [ ] Get Redfin data
   - Only scrape data in zip codes close enough (follows above cutoff < 1 hr commute)
-- [ ] Clean dataset
-  - [ ] Ensure no duplicates, missing values, etc.
-  - [ ] Only keep data for zip codes that have a commute of < 1hr
-  - [ ] Merge datasets 
-- [ ] Store data in database
-  - [ ] Use MongoDB to store data and query
+- [X] Clean dataset
+  - [X] Ensure no duplicates, missing values, etc.
+  - [X] Only keep data for zip codes that have a commute of < 1hr
+  - [X] Merge datasets 
+- [X] Store data in database
+  - [X] Use MongoDB to store data and query
 - [ ] Analyze data
   - [ ] How many coffee shops/ vegan restaurants in each zip code?
   - [ ] What is the commute like for each zip code?
